@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(222, 184, 135, 0.781);
+    position: sticky;
+    align-items: center;
+    font-size: large;
+
+}
+
+.nav-link{
+    display: flex;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: black;
+    cursor: pointer;
+    align-items: end;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+/* .navbar{ */
+    /* font-size: 2rem; */
+/* } */
+
+
+
+  /* about me */
+  .home{
+   
+    /* background-size: cover; */
+    /* width: 100%; */
+    /* height: 100px; */
+    /* text-align: end; */
+    background-color: white;
+    /* margin-bottom: 50px; */
+  }
+  .home img{
+    align-items: end;
+  }
+  .row h2{
+    font-size: 3.2rem;
+   font-weight: 300;
+   line-height: 1;
+   text-align: end;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+    
+
+.col-md-6 img{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    height: 400px;
+    width: 400px;
+} 
+.home .bt{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: 1px solid chocolate;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.home .bt:hover{
+    background-color:rgb(172, 76, 8);
+    transition: 0.5s;
+    color: white;
+}
+
+.about .h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 500;
+    justify-content: center;
+}
+#project{
+    display: flex;
+    flex-direction: column;
+    background-color:burlywood;
+    align-items: center;
+    padding:20px ;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery img{
+    width: 380px;
+    height: 350px;
+    margin: 10px;
+    border: 3px ridge whitesmoke ;
+    transform: scale(0.5s);
+    border-radius: 50px;
+}
+.gallery img:hover{
+    width: 400px;
+    height: 380px; 
+    transition: .5s;
+    box-shadow: 3px 5px 6px 4px white;
+    border-radius: 60px;
+    margin: 10px;
+}
+    .project .heading{
+        border-bottom: 2px solid black;
+    }
+    #services{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 0cap;
+    }
+    .row{
+        display: flex;
+        
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 450px;
+        border: 4px ridge whitesmoke;
+        margin: 10px;
+        padding: 20px;
+        text-align: justify;
+        border-radius: 15px;
+        background: linear-gradient(to top gray 50%, black 50%); 
+         background-size: 100% 200%;
+        transition: all 0.8s;
+    }
+    .card:hover{
+        background-position: left bottom;
+        color:black;
+        box-shadow: 0 0 20px gray;
+    }
+    .box img{
+        height: 250px;
+        width: 250px;
+    } 
+    /* .sevices{
+        background-color: rgb(250, 248, 248);
+            display: flex;
+            flex-direction: column;
+            /* background-color:burlywood; */
+            /* align-items: center;
+            padding:20px ;
+            text-align: center;
+            border-bottom: 2px solid black;
+        }
+     */ 
+     /* .card{
+        border: none;
+        outline: none; */
+        /* border: 1px solid black; */
+
+     /* }
+     .card p{
+        color: gray;
+     }
+     .circle{
+        height: 70px;
+        width: 70px;
+        background-color: rgb(167, 167, 167);
+        color: black;
+        padding: 12px;
+        font-size: 30px;
+        border-radius: 50%;
+        display: inline-block; */
+        /* margin-bottom: 20px;
+     }
+     .card .card-body:hover  .circle{
+        background-position: left bottom;
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+        box-shadow: 0 0 20px gray;
+     } */
+
+
+     #contact{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+    .contact .container{
+        background-color: burlywood;
+    }
+        
+    .contact .bt{
+        height: 35px;
+        width: 138px;
+        background-color: chocolate;
+        color: black;
+        outline: none;
+        border: 1px solid white;
+        font-weight: bold;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .contact .bt:hover{
+        background-color:rgb(172, 76, 8);
+        transition: 0.5s;
+        color: white;
+    }
+    
